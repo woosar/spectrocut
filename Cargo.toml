@@ -1,0 +1,16 @@
+[package]
+name = "spectrocut"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.104"
+directories = "6.0.0"
+lzma-rs = "0.3.0"
+ratatui = "0.30"
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+tar = "0.4.46"
+toml = "1.2.1"
+ureq = "3"
+zip = { version = "9.7.0", default-features = false, features = ["deflate"] }
